@@ -1,0 +1,28 @@
+# Next.js / Node (Frontend)
+FoucsPluseFrontend/node_modules/
+FoucsPluseFrontend/.next/
+FoucsPluseFrontend/out/
+FoucsPluseFrontend/build/
+FoucsPluseFrontend/.env*
+FoucsPluseFrontend/npm-debug.log*
+FoucsPluseFrontend/yarn-debug.log*
+FoucsPluseFrontend/yarn-error.log*
+FoucsPluseFrontend/.pnpm-debug.log*
+
+# .NET / Visual Studio (Backend)
+FoucsPulseBackend/**/bin/
+FoucsPulseBackend/**/obj/
+FoucsPulseBackend/.vs/
+FoucsPulseBackend/**/*.user
+FoucsPulseBackend/**/*.suo
+FoucsPulseBackend/**/*.userosscache
+FoucsPulseBackend/**/*.sln.docstates
+FoucsPulseBackend/**/appsettings.Development.json
+FoucsPulseBackend/**/appsettings.Local.json
+FoucsPulseBackend/**/secrets.json
+FoucsPulseBackend/FoucsPulse/appsettings.json
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+*.log

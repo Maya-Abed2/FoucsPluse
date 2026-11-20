@@ -1,0 +1,28 @@
+﻿@FoucsPulse_HostAddress = http://localhost:5102
+
+
+###
+
+# 1. اختبار إنشاء مهمة جديدة وتقسيمها بالذكاء الاصطناعي
+POST {{FoucsPulse_HostAddress}}/api/tasks/create
+Content-Type: application/json
+
+{
+  "userId": 1,
+  "title": "دراسة مادة قواعد البيانات",
+  "description": "التحضير للامتحان ميد دراسة 3 تشابترزة"
+}
+
+###
+
+# 2. اختبار إنجاز خطوة مصغرة (ضعي الـ ID الخاص بالخطوة بدلاً من 1)
+POST {{FoucsPulse_HostAddress}}/api/tasks/microtask/complete/1
+Content-Type: application/json
+
+###
+
+# 3. اختبار جلب مهام المستخدم
+GET {{FoucsPulse_HostAddress}}/api/tasks/user/1
+Accept: application/json
+
+###
